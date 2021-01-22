@@ -10,5 +10,5 @@ for _ in range(0,1023):
 print(endAlmost8K)
 print(threeToCrossExtent)
 
-bigValueForNewExtent = "insert into t(x) values (424242);"
+bigValueForNewExtent = "insert into t(x) values (424242), (424243);"
 print(bigValueForNewExtent)
