@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 print ("use test;")
+print ("drop table if exists t;")
 print ("create table t (x integer) engine = columnstore;")
 beginning8K = "insert into t(x) values " + ("(1)," * 8191) + "(1);"
 endAlmost8K = "insert into t(x) values " + ("(1)," * 8190) + "(1);"
